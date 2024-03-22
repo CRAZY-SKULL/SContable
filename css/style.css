@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+
+}
+.banner-image{
+    background: radial-gradient(circle, rgb(27, 27, 27) 100%, rgb(6, 33, 75) 70%);
+}
+.banner-image::before{
+    content:'';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/calc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Coloca el fondo radial detrás del contenido */
+    /* background: radial-gradient(circle, rgba(30, 95, 179, 0.521) 0%, rgba(8, 22, 59, 0.486) 80%); */
+    
+}
+
+
+.banner-image h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: relative; /* Asegura que el título esté por encima del fondo radial */
+    z-index: 1; /* Asegura que el título esté por encima del fondo radial */
+}
+.banner-image h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: relative; /* Asegura que el título esté por encima del fondo radial */
+    z-index: 1; /* Asegura que el título esté por encima del fondo radial */
+}
+.custom-div1, .custom-div2, .custom-div3, .custom-div4, .custom-div5 {
+    background-color: white;
+}
+/* Estilos adicionales para la imagen en el banner */
+
+
+
