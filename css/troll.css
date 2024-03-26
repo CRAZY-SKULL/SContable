@@ -1,0 +1,15 @@
+/* Agrega cualquier estilo personalizado si es necesario */
+.selected {
+    background-color: rgb(0, 75, 44);
+    /* Color de selección */
+}
+
+.selected2 {
+    background-color: rgb(56, 119, 255);
+    /* Color de selección */
+}
+
+#noBtn {
+    position: relative;
+    /* Cambiar a posicionamiento relativo */
+}

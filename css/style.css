@@ -144,9 +144,12 @@ h4{
 
 }
 
-.custom-div1{
+.custom-div1, .custom-div1 img{
+    width: auto;
+    height: 200px;
     display: flex;
     color: white;
+    background-color: black;
     background-image: url("/images/fondoForest.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,6 +180,3 @@ h4{
 .input-danger {
     border-color: red;
 }
-
-
-
