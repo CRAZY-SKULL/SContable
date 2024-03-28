@@ -13,3 +13,57 @@
     position: relative;
     /* Cambiar a posicionamiento relativo */
 }
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+
+}
+
+.banner-image {
+    background: radial-gradient(circle, rgba(27, 27, 27, 0.575) 100%, rgba(6, 32, 75, 0.219) 70%);
+    height: 100vh;
+    /* Ajusta la altura del banner según sea necesario */
+    /* margin-bottom: 20px; */
+
+}
+
+.banner-image::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/contador.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    /* Coloca el fondo radial detrás del contenido */
+    /* background: radial-gradient(circle, rgba(30, 95, 179, 0.521) 0%, rgba(8, 22, 59, 0.486) 80%); */
+
+}
+
+.slider-1 {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium'; /* Cambia la fuente a Arial o una fuente sans-serif */
+    font-size: 30px; /* Tamaño de fuente para el h1 */
+    color: #000000; /* Opcional: establece el color del texto */
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 20px;
+
+}

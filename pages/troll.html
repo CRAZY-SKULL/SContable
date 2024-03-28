@@ -12,6 +12,42 @@
 </head>
 
 <body>
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+            <a class="navbar-brand" href="#"> <img src="/images/icons8-contabilidad-100.png" alt="Logo" width="30"
+                    height="24" class="d-inline-block align-text-top">
+                Servicios Contables</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/pages/home.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/pages/troll.html">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/pages/tutoriales.html">Tutoriales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Banner Image  -->
+
+
 
 
 
@@ -29,37 +65,50 @@
 
 
     <div id="mtroll">
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
-            data-bs-backdrop="static">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header justify-content-center">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">¿Eres gay?</h1>
-                        <button id="btn-close" type="button" class="btn-close" aria-label="Close"></button>
-                    </div>
-                    <div id="gif" class="modal-body">
-                        <img src="/images/shin.jpg" style="max-width: 100%; height: auto;">
-                    </div>
-                    <div class="modal-footer justify-content-center ">
-                        <button id="siBtn" type="button" class="btn btn-success">Sii </button>
-                        <button id="noBtn" type="button" class="btn btn-primary">No </button>
+        <div class="banner-image w-100 d-flex justify-content-start align-items-center">
+            <div class="container text-white col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <!-- Agrega un margen horizontal para mover el contenido a la derecha -->
+                <!-- <img src="/images/marco.png"> -->
+                <h2 class="text display-5">Quienes somos?</h2>
+                <div class="col-6 offset-2 d-flex flex-column justify-content-end">
+
+
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, fugiat? Ex, tenetur voluptatem
+                        commodi illo nostrum corporis praesentium, quo officiis sed voluptatibus, ipsa quos impedit?
+                        Consequatur, eligendi. Veritatis, sint laboriosam!</p>
+
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true" data-bs-backdrop="static">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header justify-content-center">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">¿Eres gay?</h1>
+                            <button id="btn-close" type="button" class="btn-close" aria-label="Close"></button>
+                        </div>
+                        <div id="gif" class="modal-body">
+                            <img src="/images/shin.jpg" style="max-width: 100%; height: auto;">
+                        </div>
+                        <div class="modal-footer justify-content-center ">
+                            <button id="siBtn" type="button" class="btn btn-success">Sii </button>
+                            <button id="noBtn" type="button" class="btn btn-primary">No </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
-    <!-- Colocar el elemento <audio> aquí -->
-    <audio id="backgroundAudio" loop>
-        <source src="/images/fiesta.mp3" type="audio/mp3">
-    </audio>
-    <audio id="backgroundclick">
-        <source src="/images/Mouse.mp3" type="audio/mp3">
-    </audio>
-
-
+        <!-- Colocar el elemento <audio> aquí -->
+        <audio id="backgroundAudio" loop>
+            <source src="/images/fiesta.mp3" type="audio/mp3">
+        </audio>
+        <audio id="backgroundclick">
+            <source src="/images/Mouse.mp3" type="audio/mp3">
+        </audio>
 
 
 
@@ -76,12 +125,25 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.js"
-        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    <script src="/js/troll.js"></script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.js"
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="/js/troll.js"></script>
+        <script type="text/javascript">
+            var nav = document.querySelector('nav');
+
+            window.addEventListener('scroll', function () {
+                if (window.pageYOffset > 100) {
+                    nav.classList.add('bg-dark', 'shadow');
+                } else {
+                    nav.classList.remove('bg-dark', 'shadow');
+                }
+            });
+        </script>
 </body>
 
 

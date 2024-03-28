@@ -17,7 +17,7 @@ body {
 }
 
 .banner-image {
-    background: radial-gradient(circle, rgba(27, 27, 27, 0.575) 100%, rgba(6, 32, 75, 0.219) 70%);
+    background: radial-gradient(circle, rgba(27, 27, 27, 0.774) 100%, rgba(6, 32, 75, 0.219) 70%);
     height: 90vh;
     /* Ajusta la altura del banner según sea necesario */
     /* margin-bottom: 20px; */
@@ -32,7 +32,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("/images/fondoLago.jpg");
+    background-image: url("/images/profesionales.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -53,9 +53,10 @@ h3 {
     font-family: 'Franklin Gothic Medium'; /* Cambia la fuente a Arial o una fuente sans-serif */
     font-size: 30px; /* Tamaño de fuente para el h1 */
     color: #ffffff; /* Opcional: establece el color del texto */
-    background-color: #469966;
+    background-color: #147e9e;
     padding: 30px;
     margin-bottom: 20px;
+    
 
 }
 h4{
@@ -63,9 +64,10 @@ h4{
     font-family: 'Franklin Gothic Medium'; /* Cambia la fuente a Arial o una fuente sans-serif */
     font-size: 30px; /* Tamaño de fuente para el h1 */
     color: #ffffff; /* Opcional: establece el color del texto */
-    background-color: #5e9db6;
+    background-color: #53679e;
     padding: 10px;
     margin-bottom: 5px;
+    border-radius: 20px;
 }
 .carousel {
     border-radius: 20px;
