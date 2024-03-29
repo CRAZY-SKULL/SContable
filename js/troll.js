@@ -37,24 +37,17 @@ $(document).ready(function () {
         modalContent.empty(); // Vaciar el contenido de la modal-content
 
         // Agregar un elemento de imagen con el gif deseado
-        modalContent.append('<video autoplay loop muted style="width: 100%; height: auto;"><source src="/images/xdd.mp4" type="video/mp4"></video>');
+        modalContent.append('<video autoplay loop muted style="width: 100%; height: auto;"><source src="../images/xdd.mp4" type="video/mp4"></video>');
+        modalContent.append('<audio id="backgroundAudio" loop><source src="../images/fiesta.mp3" type="audio/mp3"></audio>');
     }
 
-    // Reproducir audio al hacer clic fuera del modal
-    $(document).on('click', function () {
-        playbackgroundclick();
-    });
 
      // Función para reproducir el audio de fondo
      function playBackgroundAudio() {
         var backgroundAudio = document.getElementById('backgroundAudio');
         backgroundAudio.play();
     }
-    // Función para reproducir el audio de fondo
-    function playbackgroundclick() {
-        var backgroundAudio = document.getElementById('backgroundclick');
-        backgroundAudio.play();
-    }
+
 
 
 
