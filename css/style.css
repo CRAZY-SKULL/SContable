@@ -171,3 +171,14 @@ h4{
 .input-danger {
     border-color: red;
 }
+@media (max-width: 768px) {
+    .banner-image h1.text {
+        font-size: 3rem; /* Ajusta el tamaño del título para dispositivos más pequeños */
+    }
+    .banner-image h2.text {
+        font-size: 2rem; /* Ajusta el tamaño del subtítulo para dispositivos más pequeños */
+    }
+    .banner-image p {
+        font-size: 1rem; /* Ajusta el tamaño del texto para dispositivos más pequeños */
+    }
+}
