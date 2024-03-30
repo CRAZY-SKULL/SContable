@@ -7,13 +7,7 @@
 
 body {
     background-color: whitesmoke;
-
-}
-.trabajador{
-    padding-top: 5rem;
-    background-color: #ffffff;
-    border-radius: 15px;
-
+    overflow-x: hidden;
 }
 
 .banner-image {
@@ -30,6 +24,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    max-width: 100%;
     width: 100%;
     height: 100%;
     background-image: url("../images/profesionales.jpg");
@@ -39,16 +34,16 @@ body {
     z-index: -1;
     /* Coloca el fondo radial detrás del contenido */
     /* background: radial-gradient(circle, rgba(30, 95, 179, 0.521) 0%, rgba(8, 22, 59, 0.486) 80%); */
-
 }
 
 .slider-1 {
+    max-width: 500px;
     margin-top: 50px;
     padding-bottom: 20px;
-    display: flex;
+    display:flex;
 }
 
-h3 {
+.slider-h3 {
     text-align: center;
     font-family: 'Franklin Gothic Medium'; /* Cambia la fuente a Arial o una fuente sans-serif */
     font-size: 30px; /* Tamaño de fuente para el h1 */
@@ -56,8 +51,6 @@ h3 {
     background-color: #147e9e;
     padding: 30px;
     margin-bottom: 20px;
-    
-
 }
 h4{
     text-align: center;
@@ -69,25 +62,24 @@ h4{
     margin-bottom: 5px;
     border-radius: 20px;
 }
-.carousel {
-    border-radius: 20px;
-}
 
 .carousel img {
-    opacity: 0.8; /* Cambié el valor de 80% a 0.8 */
-    border-radius: 20px;
+    width: 100%;
+    height: 600px;
 }
+
 
 .calculadora,
 .calculadora2 {
+    max-width: 100%;
     text-align: center;
-    margin-left: 20px; 
+
     padding: 20px;
     background-color: #ffffff;
     border-radius: 20px;
 }
-.clear{
-    display: flex;
+.calculadora2{
+    padding-bottom: 80px;
 }
 
 .banner-image h1 {
@@ -119,23 +111,20 @@ h4{
 }
 
 
-.carousel-item img {
-    width: auto;
-    /* La anchura se ajusta automáticamente para mantener la proporción */
-    height: 600px;
-    /* Establece una altura fija para todas las imágenes */
-    object-fit: cover;
-    /* Cubre completamente el área de la imagen */
 
-}
-.card img{
-    width: auto;
-    /* La anchura se ajusta automáticamente para mantener la proporción */
-    height: 300px;
-    /* Establece una altura fija para todas las imágenes */
+.card-img-top {
     object-fit: cover;
     /* Cubre completamente el área de la imagen */
 }
+
+
+/* Para imágenes dentro de las tarjetas, aplicar la clase de Bootstrap img-fluid */
+.card img {
+    width: 100%;
+    height: auto;
+    /* Ajusta la altura automáticamente para mantener la proporción */
+}
+
 .contador img{
     width: auto;
     /* La anchura se ajusta automáticamente para mantener la proporción */
@@ -146,13 +135,13 @@ h4{
 
 }
 
-.custom-div1, .custom-div1 img{
+.custom-div5, .custom-div5 img{
     width: auto;
     height: 200px;
     display: flex;
     color: white;
     background-color: black;
-    background-image: url("../images/fondoForest.jpg"); 
+    background-image: url("../images/fondoForest.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

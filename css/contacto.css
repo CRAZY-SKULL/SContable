@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Ajustar la altura del cuerpo al 100% de la altura del viewport */
+    background-color: rgb(43, 43, 43);
+    background-image: url("../images/fondoForest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.formulario {
+    margin-top: 50px;
+    max-width: 1000px;
+    margin: auto;
+   
+    padding: 20px; /* Agregar relleno para separar el contenido del borde */
+    border-radius: 10px; /* Agregar bordes redondeados al formulario */
+}
+
+.formulario img {
+    max-width: 100%;
+}
+.formulario2{
+    margin-top: 100px;
+    background-color: rgba(43, 100, 165, 0.658); /* Agregar color de fondo blanco al formulario */
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+}
+@media (max-width: 768px) {
+    .formulario img {
+        display: none;
+    }
+}
+
+.form-control{
+    max-width: 100%; /* O cualquier valor que desees */
+}
+.formAll{
+    max-width: 100%; /* O cualquier valor que desees */
+    background-color: rgba(248, 248, 248, 0.226);
+    border-radius: 20px;
+}
+.title{
+    padding-bottom: 15px;
+}
